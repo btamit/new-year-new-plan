@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* Banner section styles start */
+.banner-container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/banner/banner1.png);
+    padding:50px 0;
+    display: flex;
+    justify-content:flex-end;
+    text-align: right;
+    align-items: center;
+}
+.banner-details{
+    width: 50%;
+    margin-right: 150px;
+}
+.banner-title{
+    font-size: 55px;
+    color: #151414;
+    font-weight: 700;
+
+}
+.banner-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin: 25px 0;
+}
+.banner-btn{
+    background: #F15B22;
+    border-radius: 5px;
+    border: 0;
+    padding: 20px 25px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+/* Banner section styles end */
+
+
+/* My failure section styles start */
+.failure{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin: 130px 0;
+    gap: 87px;
+}
+.my-failure-title{
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+
+}
+.my-failure-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin: 25px 0 18px 0;
+    line-height: 26px;
+
+}
+.my-failure-right ul li{
+    list-style: none;
+}
+.icon-color{
+    color: #16D887;
+    padding: 10px;
+}
+/* My failure section styles end */
+
+
+/* My plans section styles start */
+.my-plans-section{
+    margin: 130px 0;
+}
+.my-plans-heading{
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 50px;
+}
+.my-plans{
+    display: flex;
+    gap: 86px;
+    justify-content:center;
+    align-items: center;
+}
+.my-plans-icon{
+    margin-left: 18px;
+}
+.my-plans-title{
+    font-weight: 700;
+    font-size: 20px;
+    color: #151414;
+    text-align: center;
+}
+.my-plans-description{
+    font-weight: 500;
+    font-size: 17px;
+    color: #737272;
+    text-align: center;
+}
+/* My plans section styles end */
+
+/* Gradient section starts */
+    .gradient{
+        width: 80%;
+        height: 100vh;
+        background-image: url(../images/watch.png),
+        linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);
+        background-blend-mode: overlay;
+        background-repeat: no-repeat;
+        margin: 0 auto;
+        height: 100%;
+        border-radius: 8px;
+        padding:95px 0;
+    }
+    .gradient-contact{
+        padding: 135px 0 0px 30px;
+        
+    }
+    .gradient-description{
+        position: relative;
+    }
+    .gradient-title{
+        color: white;
+        margin-left: 45px;
+        margin-bottom: 15px;
+    }
+    .gradient-btn{
+        font-size: 15px;
+        background-color: white;
+        color: #F15B22;
+        border: 0;
+        padding:10px 15px;
+        border-radius: 5px;
+        margin-left: 45px;
+        font-weight: bold;
+    }
+/* Gradient section ends */
+
+/* Footer styles */
+.stay-connected{
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    color: white;
+    background-color: black;
+    justify-content: space-around;
+    padding: 100px;
+    margin-top: 100px;
+}
+.stay-connect-description{
+    font-size: 14px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.social-icon{
+    margin-top: 30px;
+
+}
+.social-icon img{
+    padding-right: 15px;
+}
+.input-field{
+    padding: 12px 40px;
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+.subscribe-btn{
+    padding: 10px 30px;
+    color: #F15B22;
+    background: #FFFFFF;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
