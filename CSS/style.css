@@ -75,6 +75,54 @@
 /* My failure section styles end */
 
 
+
+/* Our achievements styles start */
+.our-achievements{
+    text-align: center;
+    width: 58%;
+    margin-left: 120px;
+    margin-left: 250px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.achievements-section{
+    display: flex;
+    margin-bottom: 100px;
+}
+
+#achievement-one{
+    width: 25%;
+    margin-left: 4%;
+    background:#EDF5F6;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+
+#achievement-two{
+    width: 25%;
+    margin-left: 5%;
+    background:#FFEEEE;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+#achievement-three{
+    width: 25%;
+    margin-left: 5%;
+    background:#FFF4D6;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+/* Our achievements styles start */
+
+
+
 /* My plans section styles start */
 .my-plans-section{
     margin: 130px 0;
